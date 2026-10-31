@@ -1,0 +1,23 @@
+/* কাস্টম স্ক্রলবার ডিজাইন */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #0a0a0a; 
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #333; 
+    border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+/* মোডাল ওপেন হওয়ার এনিমেশন */
+#topupModal.show {
+    display: flex !important;
+    opacity: 1 !important;
+}
+#topupModal.show > div {
+    transform: scale(1) !important;
+}
